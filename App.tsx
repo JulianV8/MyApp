@@ -3,14 +3,21 @@
 // import { ContadorScreen } from './src/screens/ContadorScreen';
 
 import { SafeAreaView } from "react-native";
-import { ObjectBoxModelScreen } from "./src/components/ObjectBoxModelScreen";
+// import { ObjectBoxModelScreen } from "./src/components/ObjectBoxModelScreen";
+// import { Tarea2 } from "./src/components/Tarea2";
+import { Tarea3 } from "./src/components/Tarea3";
 
 export const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{
+      flex: 1,
+      backgroundColor: '#647EAB',
+    }}>
       {/* // <HomeScreen />
       // <ContadorScreen /> */}
-      <ObjectBoxModelScreen />
+      {/* <ObjectBoxModelScreen /> */}
+      {/* <Tarea2/> */}
+      <Tarea3/>
     </SafeAreaView>
   );
 };
