@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         flex: 1,
         borderColor: 'red',
         borderWidth: 5,
-        justifyContent: 'center',
+        // justifyContent: 'center',
     },
     cajaMorada: {
         backgroundColor: '#5856D6',
